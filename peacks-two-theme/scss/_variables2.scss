@@ -1,0 +1,25 @@
+$fonts-collection: (
+  hind: (
+    "Hind",
+    sans-serif
+  ),
+  source-sans: (
+    "Source Sans Pro",
+    sans-serif
+  ),
+  fresca: (
+    "Fresca",
+    sans-serif
+  )
+);
+
+$poster: url(../img/m-h-night.jpg);
+$main-font-color: #fff;
+$secondary-font-color: #c7c5c1;
+$subheading-font-color: $main-font-color;
+$section-card-text-font: map-get($fonts-collection, fresca);
+$color-primary: #ff4e33;
+$color-secondary: #e3ac00;
+$color-gradient-end: #902d51;
+$card-bg-color: #3b3f50;
+$body-bg-color: #21232e;

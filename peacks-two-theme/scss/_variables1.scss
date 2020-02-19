@@ -1,0 +1,25 @@
+$fonts-collection: (
+  hind: (
+    "Hind",
+    sans-serif
+  ),
+  source-sans: (
+    "Source Sans Pro",
+    sans-serif
+  ),
+  fresca: (
+    "Fresca",
+    sans-serif
+  )
+);
+
+$poster: url(../img/m-h-day.jpg);
+$main-font-color: #2c2f3c;
+$secondary-font-color: #bfc0c6;
+$subheading-font-color: #fff;
+$section-card-text-font: map-get($fonts-collection, hind);
+$color-primary: #14a0c7;
+$color-secondary: #699900;
+$color-gradient-end: #2c5adb;
+$card-bg-color: #21232e;
+$body-bg-color: #fff;
